@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+body {
+    margin: 20px;
+    font-family: 'Roboto Condensed', 'Franklin Gothic Medium', 'Arial Narrow';
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 100px;
+    box-shadow: 5px 5px 6px #311E10;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #D9DD92;
+    color: #311E10;
+    border-bottom: 6px solid #DD6031;
+    font-size: 1.1rem;
+    box-shadow: 5px 5px 6px #311E10;
+    text-shadow: 5px 5px 6px #311E10;
+        
+    
+} 
+   
+.card:hover {
+    background-color: #ECE4B7;
+}
+
+p {
+    font-weight: 300;
+}
+
+.border-blue {
+    border: 1px dotted #D9DD92;
+}
+
+
